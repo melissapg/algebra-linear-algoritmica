@@ -83,18 +83,7 @@ if __name__ == "__main__":
     imagens = []  # array de imagens
     N_MORPHING = 300 # número de etapas do morphing.
 
-    # imagens.append(cv2.imread('./img/mona1.jpg'))  # mona
-    # imagens.append(cv2.imread('./img/mona2.jpg'))  # mona
-
-    imagens.append(cv2.imread('./img/imagem-mel.jpg'))  # nós 3
-    imagens.append(cv2.imread('./img/imagem-meme.jpg'))  # nós 3
-    imagens.append(cv2.imread('./img/imagem-nate.jpg'))  # nós 3
-
-    # imagens.append(cv2.imread('./img/bebe_homem.jpg'))  # bebês
-    # imagens.append(cv2.imread('./img/bebe_mulher.jpg'))  # bebês
-
-    # imagens.append(cv2.imread('./img/homem-1.jpg'))  # homem
-    # imagens.append(cv2.imread('./img/homem-2.jpg'))  # homem
-
+    imagens.append(cv2.imread('./img/mona1.jpg'))  # mona
+    imagens.append(cv2.imread('./img/mona2.jpg'))  # mona
 
     main(imagens, [450, 650], N_MORPHING)  # roda o programa
